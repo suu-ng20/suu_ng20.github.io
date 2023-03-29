@@ -1,0 +1,49 @@
+<html>
+<head>
+	<title>Diseño de interiores</title>
+	<link rel="stylesheet" type="text/css" href="contacto.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="logo.png" alt="Logo">
+		</div>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="minimalismo.html">Minimalismo</a></li>
+                <li><a href="clásico.html">Clásico</a></li>
+                <li><a href="moderno.html">Moderno</a></li>
+                <li><a href="rústico.html">Rústico</a></li>
+                <li><a href="industrial.html">Industrial</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+    <div class="conjunto3" >
+        <div class="formulario">
+            <h1>¿Quieres saber más?</h1>
+            <h2>¡Contacta con nosotros!</h2>
+        <form>
+            <label for="nombre">Nombre y Apellidos :</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" name="edad" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9}" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="codigo-postal">Código postal:</label>
+            <input type="text" id="codigo-postal" name="codigo-postal" required>
+
+            <input type="submit" value="Enviar">
+        </form>
+        </div>
+    </div> 
+</body>
+
+</html>

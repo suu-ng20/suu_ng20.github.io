@@ -1,0 +1,174 @@
+body{
+	height: 100%; 
+	font-family: Times New Roman;
+    background-color: #f1f1f1;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+	display: flex;
+	align-items: center;
+	padding: 5px;
+    background-color: #378661cb; 
+	
+}
+
+.logo img {
+	width: 400px;
+	height: 400px;
+	margin-right: 20px;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+    justify-content: space-evenly;
+    font-size: 0.5vw;
+    text-align: right;
+	
+}
+
+nav li {
+	margin: 0 20px;
+  
+}
+
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 1.5vw;
+    margin-left: 50px;
+}
+
+.contact_form{	
+	width: 40px; 
+    height: auto;
+    margin-right: 100px;
+	border-radius: 10px;  
+	padding-top: 30px;
+	padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 200px; 
+    padding-right: 60px; 
+}
+
+
+input{
+	background-color: #ffffff; 
+	width: 1000px; 
+	height: 40px; 
+	border-radius: 10px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #378661; 
+	margin-top: 10px;  
+    margin-bottom: 20px;
+	margin-right: 1000px;
+	margin-left: 700px;
+}
+
+
+textarea{
+    background-color: #fbfbfb; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #378661; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
+
+
+label{
+    display:flex;
+	font-size: 2vw;	
+	margin-left: 700px;
+}
+
+
+button{
+	height: 3.5vw; 
+	padding-left: 10px;
+	padding-right: 10px; 	
+	margin-bottom: 20px; 
+	margin-top: 20px;
+	margin-right: 500px; 	
+	text-transform: uppercase;
+	background-color: #378661; 
+	border-color: #378661; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+    cursor: pointer;
+}
+
+
+button p{
+	color: #378661; 
+}
+
+
+span{
+	color: #5444ab; 
+}
+
+
+.aviso{
+	font-size: 3vw;  
+	color: #0e0e0e; 
+
+}
+
+h1{
+	font-size:3vw;  
+	text-align: center; 
+	margin-left: none;
+    justify-content: center;
+	color: #378661;
+}
+h2{
+	font-size:2vw;  
+	text-align: center; 
+	margin-left: none;
+    justify-content: center;
+	color: #0f1010;
+}
+
+
+p{
+	font-size: 2vw; 
+	color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+	outline:0;
+	border: 1px solid #50880b;
+}
+
+
+.formulario textarea:focus{
+	outline:0;
+	border: 1px solid #97d848;
+}
+footer {
+    background-color: #378661cb;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
